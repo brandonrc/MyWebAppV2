@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  padding: 30px 0;
+  padding: 10px 0;
   height: 92px;
   position: fixed;
   left: 0;
@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 1024px) {
   #header #logo {
-    padding-left: 60px;
+    padding-left: 30px;
   }
 }
 
@@ -853,20 +853,20 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-top: 30px;
 }
 
-/* Portfolio Section
+/* edgeToEdge Section
 --------------------------------*/
-#portfolio {
+#edgeToEdge {
   padding: 60px 0;
 }
 
-#portfolio #portfolio-flters {
+#edgeToEdge #edgeToEdge-flters {
   padding: 0;
   margin: 5px 0 35px 0;
   list-style: none;
   text-align: center;
 }
 
-#portfolio #portfolio-flters li {
+#edgeToEdge #edgeToEdge-flters li {
   cursor: pointer;
   margin: 15px 15px 15px 0;
   display: inline-block;
@@ -881,31 +881,31 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all 0.3s ease-in-out;
 }
 
-#portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
+#edgeToEdge #edgeToEdge-flters li:hover, #edgeToEdge #edgeToEdge-flters li.filter-active {
   background: #18d26e;
   color: #fff;
 }
 
-#portfolio #portfolio-flters li:last-child {
+#edgeToEdge #edgeToEdge-flters li:last-child {
   margin-right: 0;
 }
 
-#portfolio .portfolio-wrap {
+#edgeToEdge .edgeToEdge-wrap {
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   transition: 0.3s;
 }
 
-#portfolio .portfolio-wrap:hover {
+#edgeToEdge .edgeToEdge-wrap:hover {
   box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.16);
 }
 
-#portfolio .portfolio-item {
+#edgeToEdge .edgeToEdge-item {
   position: relative;
   height: 360px;
   overflow: hidden;
 }
 
-#portfolio .portfolio-item figure {
+#edgeToEdge .edgeToEdge-item figure {
   background: #000;
   overflow: hidden;
   height: 240px;
@@ -914,12 +914,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0;
 }
 
-#portfolio .portfolio-item figure:hover img {
+#edgeToEdge .edgeToEdge-item figure:hover img {
   opacity: 0.4;
   transition: 0.3s;
 }
 
-#portfolio .portfolio-item figure .link-preview, #portfolio .portfolio-item figure .link-details {
+#edgeToEdge .edgeToEdge-item figure .link-preview, #edgeToEdge .edgeToEdge-item figure .link-details {
   position: absolute;
   display: inline-block;
   visibility: hidden;
@@ -932,41 +932,41 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.2s;
 }
 
-#portfolio .portfolio-item figure .link-preview i, #portfolio .portfolio-item figure .link-details i {
+#edgeToEdge .edgeToEdge-item figure .link-preview i, #edgeToEdge .edgeToEdge-item figure .link-details i {
   padding-top: 6px;
   font-size: 22px;
   color: #333;
 }
 
-#portfolio .portfolio-item figure .link-preview:hover, #portfolio .portfolio-item figure .link-details:hover {
+#edgeToEdge .edgeToEdge-item figure .link-preview:hover, #edgeToEdge .edgeToEdge-item figure .link-details:hover {
   background: #18d26e;
 }
 
-#portfolio .portfolio-item figure .link-preview:hover i, #portfolio .portfolio-item figure .link-details:hover i {
+#edgeToEdge .edgeToEdge-item figure .link-preview:hover i, #edgeToEdge .edgeToEdge-item figure .link-details:hover i {
   color: #fff;
 }
 
-#portfolio .portfolio-item figure .link-preview {
+#edgeToEdge .edgeToEdge-item figure .link-preview {
   left: calc(50% - 38px);
   top: calc(50% - 18px);
 }
 
-#portfolio .portfolio-item figure .link-details {
+#edgeToEdge .edgeToEdge-item figure .link-details {
   right: calc(50% - 38px);
   top: calc(50% - 18px);
 }
 
-#portfolio .portfolio-item figure:hover .link-preview {
+#edgeToEdge .edgeToEdge-item figure:hover .link-preview {
   visibility: visible;
   left: calc(50% - 44px);
 }
 
-#portfolio .portfolio-item figure:hover .link-details {
+#edgeToEdge .edgeToEdge-item figure:hover .link-details {
   visibility: visible;
   right: calc(50% - 44px);
 }
 
-#portfolio .portfolio-item .portfolio-info {
+#edgeToEdge .edgeToEdge-item .edgeToEdge-info {
   background: #fff;
   text-align: center;
   padding: 30px;
@@ -974,7 +974,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 0 0 3px 3px;
 }
 
-#portfolio .portfolio-item .portfolio-info h4 {
+#edgeToEdge .edgeToEdge-item .edgeToEdge-info h4 {
   font-size: 18px;
   line-height: 1px;
   font-weight: 700;
@@ -982,15 +982,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-bottom: 0;
 }
 
-#portfolio .portfolio-item .portfolio-info h4 a {
+#edgeToEdge .edgeToEdge-item .edgeToEdge-info h4 a {
   color: #333;
 }
 
-#portfolio .portfolio-item .portfolio-info h4 a:hover {
+#edgeToEdge .edgeToEdge-item .edgeToEdge-info h4 a:hover {
   color: #18d26e;
 }
 
-#portfolio .portfolio-item .portfolio-info p {
+#edgeToEdge .edgeToEdge-item .edgeToEdge-info p {
   padding: 0;
   margin: 0;
   color: #b8b8b8;
