@@ -2,12 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d0af0a5-a95c-46aa-9638-6ce4739c89ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/skills/android.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/skills/docker.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/skills/visual.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/220px-Military_service_mark_of_the_United_States_Army.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/army.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/7165_minnesota-duluth__bulldogs-alternate-01.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/img/about-mission.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/about-mission.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/about-plan.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/call-to-action-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/call-to-action-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/army.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/army.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/scrum-software-developement-cycle.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/scrum-software-developement-cycle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/skills/0309.sdt-jetbrains.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/skills/0309.sdt-jetbrains.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/skills/1200px-Java_programming_language_logo.svg.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/skills/1200px-Java_programming_language_logo.svg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/skills/2000px-Vmware.svg.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/skills/2000px-Vmware.svg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/skills/68747470733a2f2f646576656c6f7065722e6665646f726170726f6a6563742e6f72672f7374617469632f6c6f676f2f6373686172702e706e67.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/skills/68747470733a2f2f646576656c6f7065722e6665646f726170726f6a6563742e6f72672f7374617469632f6c6f676f2f6373686172702e706e67.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/skills/Visual_Studio_2017_logo_and_wordmark.svg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/skills/about-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/skills/flask.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/skills/flask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/skills/kisspng-android-studio-mobile-app-development-studio-logo-5b30df8d64a315.0788970215299296134122.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/skills/kisspng-the-c-programming-language-computer-icons-comput-programming-5acadc2dec0be9.0824244915232440779669.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,43 +27,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-821653801">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="html" value="1" />
-          <entry key="jade" value="1" />
-          <entry key="jpg" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="HTML" value="1" />
-          <entry key="Image" value="6" />
-          <entry key="PLAIN_TEXT" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="html" value="1942" />
-          <entry key="txt" value="27" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="HTML" value="1942" />
-          <entry key="PLAIN_TEXT" value="27" />
-        </counts>
-      </usages-collector>
-    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -74,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="733" column="51" lean-forward="true" selection-start-line="667" selection-start-column="8" selection-end-line="733" selection-end-column="51" />
+            <state relative-caret-position="94">
+              <caret line="416" lean-forward="true" selection-start-line="416" selection-end-line="416" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -85,6 +59,11 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/img/skills/68747470733a2f2f646576656c6f7065722e6665646f726170726f6a6563742e6f72672f7374617469632f6c6f676f2f6373686172702e706e67.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -113,6 +92,8 @@
       <find>my military stor</find>
       <find>style</find>
       <find>military</find>
+      <find>language</find>
+      <find>team</find>
     </findStrings>
     <replaceStrings>
       <replace>Resume</replace>
@@ -128,34 +109,17 @@
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/package.json" />
-  </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/package.json" />
-    </packageJsonPaths>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-19" />
-    <option name="y" value="27" />
+    <option name="x" value="-20" />
+    <option name="y" value="26" />
     <option name="width" value="950" />
-    <option name="height" value="789" />
+    <option name="height" value="790" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,14 +159,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543504487865" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543510162943" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -228,6 +194,7 @@
       <updated>1543413490141</updated>
       <workItem from="1543413491286" duration="3932000" />
       <workItem from="1543501488856" duration="3120000" />
+      <workItem from="1543505766675" duration="4502000" />
     </task>
     <task id="LOCAL-00001" summary="updated photos for intro">
       <created>1543415800613</created>
@@ -240,12 +207,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7052000" />
+    <option name="totallyTimeSpent" value="11554000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.53179824" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30990174" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -253,9 +220,10 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4632272" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23046358" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -264,6 +232,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -277,9 +246,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated photos for intro" />
@@ -305,10 +271,13 @@
     <entry file="file://$PROJECT_DIR$/public/img/intro-carousel/5.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/skills/68747470733a2f2f646576656c6f7065722e6665646f726170726f6a6563742e6f72672f7374617469632f6c6f676f2f6373686172702e706e67.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="733" column="51" lean-forward="true" selection-start-line="667" selection-start-column="8" selection-end-line="733" selection-end-column="51" />
+        <state relative-caret-position="94">
+          <caret line="416" lean-forward="true" selection-start-line="416" selection-end-line="416" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
