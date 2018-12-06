@@ -10,6 +10,7 @@
     <!-- Favicons -->
     <link href="img/favicon.png" rel="icon">
     <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
@@ -38,6 +39,19 @@
     opacity: 0.6;
     filter: alpha(opacity=60); /* For IE8 and earlier */
 }
+    .btn {
+        background-color: DodgerBlue;
+        border: none;
+        color: white;
+        padding: 12px 30px;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    /* Darker background on mouse-over */
+    .btn:hover {
+        background-color: RoyalBlue;
+    }
+
 </style>
 
 <body>
@@ -287,7 +301,9 @@
                 </div>
 
             </div>
-
+            <a href="/public/GeraciCV.pdf" download>
+                <button class="btn"><i class="fa fa-download"></i> My Résumé</button>
+            </a>
         </div>
     </section><!-- #about -->
 
