@@ -38,7 +38,7 @@
     margin: 30px;
     background-color: #ffffff;
     border: 1px solid black;
-    opacity: 0.6;
+    opacity: 0.9;
     filter: alpha(opacity=60); /* For IE8 and earlier */
 }
     .btn {
@@ -424,17 +424,45 @@
             <h3 style="font-weight: bold;">Flask Docker Desktop Manager</h3>
             <div class="transbox">
                 <p><font color="black">
-                    Growing up in the early 2000’s, I was always interested in computer security. Perhaps it was the game of cat and mouse that got me hooked, but I watched as new Trojans, Worms, and Viruses would surface, and AntiVirus software would catch them. As we move further into the millennium, the probability of an attack on our computer systems increases. The simple game of cat and mouse analogy may be an oversimplification of the current state. The number of cybersecurity attacks has increased to the point that even our nation's democracy could be at risk. From the issue of private data being misused by Cambridge Analytica, to controlling a Jeep with a laptop, security is becoming more and more important.
-
+Under construction!
                 </font>
                 </p>
 
             </div>
-            <button class="btn-info" onclick="window.open('https://github.com/atr2600/kamino','_blank')">TRY NOW!</button>
+            <button class="btn-info" onclick="myFunction()">TRY NOW!</button>
 
             <!--<a class="cta-btn" href="#">Call To Action</a>-->
+            <p>Click the button to make a BUTTON element.</p>
 
+            <script>
 
+                function myFunction() {
+                    HTMLElement.prototype.centre = function(){
+                        var w = document.documentElement.clientWidth,
+                            h = document.documentElement.clientHeight;
+                        this.style.position = 'absolute';
+                        this.style.left = (w - this.offsetWidth)/2 + 'px';
+                        this.style.top = (h - this.offsetHeight)/2 +
+                            window.pageYOffset + 'px';
+                    }
+
+                    var iframe = document.createElement('iframe');
+                    iframe.src = 'http://52.14.1.196:5000/';
+                    iframe.width = '805px';
+                    iframe.height = '627px';
+                    var center = document.createElement('center');
+                    center.appendChild(iframe);
+                    // iframe.onload = function(){
+                    //     this.centre();
+                    // }
+
+                    document.getElementById("dockervnc").appendChild(center);
+                    console.log('iframe.contentWindow =', iframe.contentWindow);
+
+                    // var btn = document.createElement("BUTTON");
+                    // document.getElementById("dockervnc").appendChild(btn)
+                }
+            </script>
 
         </div>
     </section><!-- #call-to-action -->
