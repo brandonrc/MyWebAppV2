@@ -54,6 +54,106 @@
         background-color: RoyalBlue;
     }
 
+    .slideshow-container {
+        max-width: 600px;
+        position: relative;
+        margin: auto;
+    }
+
+    /* Next & previous buttons */
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+
+    /* Caption text */
+    .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .active, .dot:hover {
+        background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+
+    @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+        .prev, .next,.text {font-size: 11px}
+    }
+
+
+    .rotate90 {
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
 </style>
 
 <body>
@@ -158,13 +258,12 @@
                 <div class="carousel-item" style="background-image: url('img/intro-carousel/5.jpg');">
                     <div class="carousel-container">
                         <div class="carousel-content">
-                            <h2>Father of Three</h2>
+                            <h2>Projects</h2>
                             <p>
-                                My family is what keeps me motivated and going. During my time in the military I realized
-                                was the most important part of my life. That is what drove me to go back to college and
-                                complete my four year degree at UMD.
+                                During my time at UMD I have worked on several projects. A remote docker desktop lab, a
+                                door opener that uses a microcomputer with RFID tags to all access to our office, and a autonomous quad-copter drone.
                             </p>
-                            <a href="#about" class="btn-get-started scrollto">My Family</a>
+                            <a href="#projects" class="btn-get-started scrollto">My Projects</a>
                         </div>
                     </div>
                 </div>
@@ -383,7 +482,7 @@
 
             <div class="row" style="margin-top: 50px; margin-bottom: 50px">
                 <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-                    <h4 style="font-weight: bold;">Flask Docker Desktop Manager</h4>
+                    <h4 style="font-weight: bold;">Docker Desktop Lab System (DDLS)</h4>
                     <div class="img">
                         <a href="#dockervnc">
                             <img src="img/projects/dockervnc.png" alt="" class="img-fluid" width="75%" length = "75%">
@@ -421,52 +520,90 @@
 ============================-->
     <section id="dockervnc" class="wow fadeIn">
         <div class="container text-center">
-            <h3 style="font-weight: bold;">Flask Docker Desktop Manager</h3>
+            <h3 style="font-weight: bold;">Desktop Docker Lab System</h3>
             <div class="transbox">
                 <p><font color="black">
-Under construction!
+                    The Desktop Docker Lab System was designed to for security labs in mind. These desktop docker sessions will allow users to run expereiements in controlled environments. They do not need to
+                    worry about installing software on their machine.
                 </font>
                 </p>
+                <p><font color="black">Future: I hope to make this software more general so that it will not be just for security. Any computer class could use this system. </font></p>
 
             </div>
             <button class="btn-info" onclick="myFunction()">TRY NOW!</button>
 
-            <!--<a class="cta-btn" href="#">Call To Action</a>-->
-            <p>Click the button to make a BUTTON element.</p>
-
             <script>
 
                 function myFunction() {
-                    HTMLElement.prototype.centre = function(){
-                        var w = document.documentElement.clientWidth,
-                            h = document.documentElement.clientHeight;
-                        this.style.position = 'absolute';
-                        this.style.left = (w - this.offsetWidth)/2 + 'px';
-                        this.style.top = (h - this.offsetHeight)/2 +
-                            window.pageYOffset + 'px';
+                    var element = document.getElementById('test');
+                    if (typeof(element) != 'undefined' && element != null)
+                    {
+                        element.src = 'http://52.14.1.196:5000/';
+                    } else {
+                        var iframe = document.createElement('iframe');
+                        iframe.src = 'http://52.14.1.196:5000/';
+                        iframe.width = '805px';
+                        iframe.height = '627px';
+                        iframe.id = 'test'
+                        var center = document.createElement('center');
+                        center.appendChild(iframe);
+                        // iframe.onload = function(){
+                        //     this.centre();
+                        // }
+
+                        document.getElementById("dockervnc").appendChild(center);
+                        console.log('iframe.contentWindow =', iframe.contentWindow);
                     }
 
-                    var iframe = document.createElement('iframe');
-                    iframe.src = 'http://52.14.1.196:5000/';
-                    iframe.width = '805px';
-                    iframe.height = '627px';
-                    var center = document.createElement('center');
-                    center.appendChild(iframe);
-                    // iframe.onload = function(){
-                    //     this.centre();
-                    // }
 
-                    document.getElementById("dockervnc").appendChild(center);
-                    console.log('iframe.contentWindow =', iframe.contentWindow);
-
-                    // var btn = document.createElement("BUTTON");
-                    // document.getElementById("dockervnc").appendChild(btn)
                 }
             </script>
 
         </div>
     </section><!-- #call-to-action -->
 
+
+    <!--==========================
+  Skills Section
+============================-->
+    <section id="dooropener">
+        <div class="container">
+
+            <header class="section-header">
+                <p></p>
+                <h3> RFID Microcomputer Door Opener in Python </h3>
+                <p>
+                    The following charts show my proficiency in different computer language as well as tools used to develope software.
+                </p>
+            </header>
+
+            <div class="w3-content w3-section" style="max-width:500px">
+                <img class="mySlides" src="img/projects/door01.jpg" style="width:100%">
+                <img class="mySlides" src="img/projects/door02.jpg" style="width:100%">
+<!--                <img class="mySlides" src="img_chicago.jpg" style="width:100%">-->
+            </div>
+
+            <script>
+                var myIndex = 0;
+                carousel();
+
+                function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    myIndex++;
+                    if (myIndex > x.length) {myIndex = 1}
+                    x[myIndex-1].style.display = "block";
+                    setTimeout(carousel, 2000); // Change image every 2 seconds
+                }
+            </script>
+
+
+        </div>
+        <p></p>
+    </section>
 
     <!--==========================
       Call To Action Section
