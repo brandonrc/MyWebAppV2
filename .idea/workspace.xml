@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d0af0a5-a95c-46aa-9638-6ce4739c89ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/img/projects/door01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/projects/door02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/projects/door03.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="3d0af0a5-a95c-46aa-9638-6ce4739c89ff" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -251,7 +245,7 @@
       <workItem from="1544059599335" duration="1434000" />
       <workItem from="1567205665549" duration="5634000" />
       <workItem from="1567534680751" duration="5059000" />
-      <workItem from="1567801977256" duration="2077000" />
+      <workItem from="1567801977256" duration="2758000" />
     </task>
     <task id="LOCAL-00001" summary="updated photos for intro">
       <created>1543415800613</created>
@@ -309,14 +303,21 @@
       <option name="project" value="LOCAL" />
       <updated>1567536591351</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Working on the docker code">
+      <created>1568038780529</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1568038780529</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35444000" />
+    <option name="totallyTimeSpent" value="36125000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3848" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-3848" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21654373" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
